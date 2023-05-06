@@ -8,7 +8,7 @@ class ImageAssets{
   static const onBoardingLogo4 = "$imagePath/onboarding_logo4.svg";
   static const circleEmpty = "$imagePath/circle_empty.png";
   static const circleFill = "$imagePath/fill_circle.png";
-  static const leftArrow = "$imagePath/back.png";
-  static const rightArrow = "$imagePath/next.png";
+  static const leftArrow = "$imagePath/left.png";
+  static const rightArrow = "$imagePath/right.png";
 
 }

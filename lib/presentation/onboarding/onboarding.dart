@@ -128,7 +128,7 @@ class _OnBoardingViewState extends State<OnBoardingView> {
             child: SizedBox(
               height: AppSize.s20,
               width: AppSize.s20,
-              child: Image.asset(ImageAssets.leftArrow),
+              child: Image.asset(ImageAssets.rightArrow),
             ),
             onTap: (){
               _pageController.animateToPage(
