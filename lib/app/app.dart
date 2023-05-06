@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:udemy1/test2.dart';
+import 'package:udemy1/presentation/resources/routes_manager.dart';
+import 'package:udemy1/presentation/resources/theme_manager.dart';
 class MyApp extends StatefulWidget {
 
 
@@ -17,9 +18,11 @@ class MyApp extends StatefulWidget {
 class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      theme: getApplicationTheme(),
+      onGenerateRoute: RoutesGenerator.getRoute,
+      initialRoute: Routes.splashRoute,
       debugShowCheckedModeBanner: false,
-      home: FloatingSearchBarScreen(),
     );
   }
 }
